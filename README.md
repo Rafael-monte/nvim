@@ -20,11 +20,11 @@ vim ~/.bashrc # Também pode ser gedit, ou outro editor de texto
 ### Por fim, baixe alguma fonte que tenha compatibilidade com o NVIM_Tree
 
 ```bash
-wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip \
+wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip \
 && cd ~/.local/share/fonts \
-&& unzip JetBrainsMono.zip \
-&& rm JetBrainsMono.zip \
+&& unzip Meslo.zip \
+&& rm Meslo.zip \
 && fc-cache -fv
 ```
-
+Não se esqueça de setar a fonte no seu terminal após isso.
 Após realizar os passos descritos, basta rodar o comando "nvim" no terminal
