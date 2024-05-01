@@ -11,7 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("rafao.plugins", {
+require("lazy").setup( {  { import = "rafao.plugins" }, { import = "rafao.plugins.lsp" } }, {
   checker = {
     enabled = true,
     notify = false,
